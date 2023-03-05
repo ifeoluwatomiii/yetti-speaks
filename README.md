@@ -4,7 +4,7 @@ This project is called "Yetti Speaks", a blog website that showcases various blo
 Getting Started
 To get started, you will need to have Node.js installed on your local machine. You can download Node.js from the official Node.js website. Once you have Node.js installed, you can follow the steps below:
 
-Clone the repository to your local machine using git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.
+Clone the repository to your local machine using git clone git@github.com:ifeoluwatomiii/yetti-speaks.git.
 Navigate to the project directory using cd yetti-speaks.
 Install the project dependencies using npm install.
 Run the project using npm run dev.
