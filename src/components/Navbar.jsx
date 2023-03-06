@@ -34,13 +34,13 @@ const Navbar = () => {
         <a className='transition transform hover:-translate-x-3' href="">CONTACT</a>
       </div>
 
-      <div className='z-40'>
+      <div className='z-40 xl:hidden'>
         {isOpen ?
          (<VscClose
         className='w-[30px] h-[40px] text-white'
         title='Close'
         onClick={()=>setIsOpen(!isOpen)}/>):
-        <RxHamburgerMenu className='cursor-pointer xl:hidden w-[20px] h-[25px]'
+        <RxHamburgerMenu className='cursor-pointer w-[20px] h-[25px]'
         title='Menu'
         onClick={()=> setIsOpen(!isOpen)}/>}
       </div>
