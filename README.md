@@ -4,7 +4,8 @@ Yetti Speaks Blog Project README
 This project is called "Yetti Speaks", a blog website that showcases various blog posts from the json placeholder API. The project is built using [React.js](https://reactjs.org/) and styled with [Tailwind CSS](https://tailwindcss.com/). [Axios](https://axios-http.com/) is used to fetch data from the API, [Recoil](https://recoiljs.org/) is used for state management, and [Vite](https://vitejs.dev/) is used as the development server and build tool.
 
 This project was set up using Vite
-
+ 
+Project Demo: https://yetti-speaks.vercel.app/
 
 Getting Started
 ---------------
