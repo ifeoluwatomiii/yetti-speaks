@@ -6,7 +6,7 @@ import {VscClose} from 'react-icons/vsc'
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false)
   return (
-    <div className='flex justify-between px-[80px] items-center py-4 bg-transparent'>
+    <div className='flex justify-between px-[50px] items-center py-4 bg-transparent'>
       <div>
         <h1 className='font-bold text-xl'>YETTI SPEAKS</h1>
       </div>
