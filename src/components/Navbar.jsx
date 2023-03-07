@@ -15,7 +15,6 @@ const Navbar = () => {
       <div className='flex gap-7 font-bold hidden xl:flex'>
         <a className='transition transform hover:-translate-x-3' href="">HOME</a>
         <a className='transition transform hover:-translate-x-3' href="">BLOG</a>
-        <a className='transition transform hover:-translate-x-3' href="">SHOP</a>
         <a className='transition transform hover:-translate-x-3' href="">ABOUT</a>
         <a className='transition transform hover:-translate-x-3' href="">CONTACT</a>
       </div>
@@ -29,7 +28,6 @@ const Navbar = () => {
 
 	    <a className='transition transform hover:-translate-x-3' href="">HOME</a>
         <a className='transition transform hover:-translate-x-3' href="">BLOG</a>
-        <a className='transition transform hover:-translate-x-3' href="">SHOP</a>
         <a className='transition transform hover:-translate-x-3' href="">ABOUT</a>
         <a className='transition transform hover:-translate-x-3' href="">CONTACT</a>
       </div>
