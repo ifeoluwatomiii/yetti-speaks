@@ -26,8 +26,8 @@ const Latest = ({ postsDisplayed, showLink }) => {
 	};
 
 	return (
-		<div className="mb-80">
-			<h1 className="font-bold text-2xl  mx-auto py-8 px-[125px]">Latest Posts</h1>
+		<div className="mb-80 py-2">
+			
 			{showLink ? (
 				<div className="flex items-center justify-between lg:max-w-[1280px] mx-auto py-6 px-5">
 					<h1 className="font-bold text-2xl">Latest Posts</h1>
