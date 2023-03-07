@@ -3,7 +3,7 @@ import fixed from '../assets/fixedImg.jpg'
 
 const Newsletter = () => {
   return (
-    <div className='py-[150px] '>
+    <div className='py-[70px] '>
       <div className='text-center pb-6'>
       <h1 className='font-bold text-3xl'>Join My <span className='underline decoration-[#9b6f56bd] decoration-2 underline-offset-8'>Newsletter</span></h1>
       </div>
