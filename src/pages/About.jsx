@@ -7,14 +7,14 @@ import travel from '../assets/mozambique.jpg'
 
 const About = () => {
   return (
-    <div className='container  max-w-[1280px] mx-auto py-6'>
-      <div className='flex w-[100%] gap-3 px-4 py-8 '>
+    <div className='container  max-w-[1280px] mx-auto pb-[10%]'>
+      <div className='flex w-[100%] gap-2 xl:gap-4 px-4 py-6 '>
         
-        <img className='w-[33%] transition transform hover:hover:scale-110' src={couple} alt="" />
-        <img className='w-[33%] transition transform hover:hover:scale-110' src={pots} alt="" />
-        <img className='w-[33%] transition transform hover:hover:scale-110' src={travel} alt="" />
+        <img className='w-[33%] transition transform hover:hover:scale-110 duration-500 ease-in-out ' src={couple} alt="" />
+        <img className='w-[33%] transition transform hover:hover:scale-110 duration-500 ease-in-out' src={pots} alt="" />
+        <img className='w-[33%] transition transform hover:hover:scale-110 duration-500 ease-in-out' src={travel} alt="" />
       </div>
-      <div>
+      <div className='px-4'>
         <h2 className='mb-2'>Welcome to Yetti Speaks! </h2>
         <p> This is a personal blog where I share my thoughts, experiences, and insights on various topics that interest me. My name is Yetunde Ajifowose, and I'm the creator and writer of this blog.
         I started Yetti Speaks as a way to express myself and share my voice with the world. I believe that everyone has a story to tell and that sharing our stories can help us connect and understand each other better. <br />

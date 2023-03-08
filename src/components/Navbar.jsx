@@ -27,9 +27,9 @@ const Navbar = () => {
         : "flex gap-8 list-none cursor-pointer flex-col  top-0 left-[-100%] pl-5 bg-white fixed h-[100vh] w-[70%] shadow-lg pt-4 transition-all ease-out duration-500"
       } >
 
-	    <a className='transition transform hover:-translate-x-3' href="hero">HOME</a>
-        <a className='transition transform hover:-translate-x-3' href="Latest">BLOG</a>
-        <a className='transition transform hover:-translate-x-3' href="">ABOUT</a>
+        <Link className='transition transform hover:-translate-x-3' to="/">HOME</Link>
+        <Link className='transition transform hover:-translate-x-3' to="/blog">BLOG</Link>
+        <Link className='transition transform hover:-translate-x-3' to="/about">ABOUT</Link>
         <a className='transition transform hover:-translate-x-3' href="Newsletter">CONTACT</a>
       </div>
 

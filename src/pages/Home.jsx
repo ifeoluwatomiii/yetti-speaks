@@ -5,6 +5,7 @@ import Image from "../components/Image";
 import Newsletter from "../components/Newsletter";
 import Video from "../components/Video";
 import Latest from "../components/Latest";
+import Footer from "../components/Footer";
 
 const Home = () => {
 	return (
@@ -15,6 +16,7 @@ const Home = () => {
 			<Video />
 
 			<Latest postsDisplayed={6} showLink={true} />
+      <Footer />
 		</div>
 	);
 };
