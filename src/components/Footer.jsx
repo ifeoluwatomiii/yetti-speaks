@@ -6,7 +6,7 @@ import {FaInstagram, FaTiktok, FaPodcast} from 'react-icons/fa'
 
 const Footer = () => {
   return (
-    <div className='flex justify-around py-4 px-4 border shadow-sm'>
+    <div className='flex justify-around py-4 px-4 border shadow-sm flex-col xl:flex-row'>
       <div>
         <Link className='font-bold text-xl' to="./">YETTI SPEAKS</Link>
       </div>
