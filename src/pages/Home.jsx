@@ -16,7 +16,6 @@ const Home = () => {
 			<Video />
 
 			<Latest postsDisplayed={6} showLink={true} />
-      <Footer />
 		</div>
 	);
 };
