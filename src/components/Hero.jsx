@@ -20,7 +20,7 @@ const Hero = () => {
            
         </div>
         <div className='hidden lg:flex'>
-            <img className='w-[23%] absolute right-[23%] top-[26%] xl:top-[10%] xl:w-[19%] xl:right-[27%]' src={titi} alt="" />
+            <img className='w-[23%] absolute right-[23%] top-[26%] xl:top-[14%] xl:w-[19%] xl:right-[27%]' src={titi} alt="" />
         </div>
          
       

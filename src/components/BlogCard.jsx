@@ -1,16 +1,28 @@
-import React from 'react'
-import social from "../assets/media.jpg";
+import postcss from "postcss";
+import React from "react";
+import { BsArrowRight } from "react-icons/bs";
+import ReactTimeAgo from "react-time-ago";
 
+const BlogCard = ({ ...post }) => {
+	return (
+		<div>
+			<img src={post.featured_image_url} alt="" />
+			<h2 classname="font-bold text-2xl text-white" style={cardStyle}>
+				{post.title}{" "}
+			</h2>
+			<p style={{ color: "#000", fontSize: 15, marginTop: 10 }}>
+				{post.content}
+			</p>
+			<div className="flex items-center justify-between mt-6">
+				<button className=" flex items-center gap-2 hover:border-b hover:border-black transition duration-300 ease-in">
+					Read More <BsArrowRight />
+				</button>
+				<ReactTimeAgo date={post.date_posted} locale="en-US" className= "text-[14px] text-black/60"/>
+			</div>
+		</div>
+	);
+};
 
-const BlogCard = ({...post}) => {
-  return (
-    <div className=''>
-      <img src={social} alt="" />
-      <h1 classname='font-bold text-2xl'>{post.title} </h1>
-      <h3 classname='font-bold'>{post.body} <span classname='font-bold'>Read More</span></h3>
+const cardStyle = { fontSize: 18, fontWeight: 600, marginTop: 20 };
 
-    </div>
-  )
-}
-
-export default BlogCard
+export default BlogCard;

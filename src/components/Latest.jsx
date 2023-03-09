@@ -15,9 +15,7 @@ const Latest = ({ postsDisplayed, showLink }) => {
 	const fetchPosts = async () => {
 		try {
 			setIsLoading(true);
-			const response = await axios.get(
-				"https://jsonplaceholder.typicode.com/posts"
-			);
+			const response = await axios.get("http://localhost:3000/posts");
 			setPosts(response.data);
 			setIsLoading(false);
 		} catch (err) {
@@ -27,10 +25,12 @@ const Latest = ({ postsDisplayed, showLink }) => {
 
 	return (
 		<div className="mb-80 py-2">
-			
+			<h3 className="font-bold text-2xl text-center mb-8">Welcome to Blogs</h3>
 			{showLink ? (
 				<div className="flex items-center justify-between lg:max-w-[1280px] mx-auto py-6 px-5">
-					<h1 className="font-bold text-2xl">Latest Posts</h1>
+					<h1 className="font-bold text-2xl" >
+						Latest Posts
+					</h1>
 					<Link
 						className="underline decoration-[#9b6f56bd] decoration-2 underline-offset-8"
 						to="/blog">

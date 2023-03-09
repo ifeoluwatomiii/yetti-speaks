@@ -14,7 +14,6 @@ const Home = () => {
 			<Hero />
 			<Newsletter />
 			<Video />
-
 			<Latest postsDisplayed={6} showLink={true} />
 		</div>
 	);
