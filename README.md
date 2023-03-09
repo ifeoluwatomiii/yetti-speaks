@@ -5,7 +5,7 @@ This project is called "Yetti Speaks", a blog website that showcases various blo
 
 This project was set up using Vite
  
-Project Demo: https://yetti-speaks-ifemi27.vercel.app/
+Project Demo: https://yetti-speaks-ifemi27.vercel.app
 
 Getting Started
 ---------------
